@@ -16,7 +16,10 @@ defaultContentLanguage = "en"
 
 [params]
 search = true
-  
+
+# Path to your logo
+logo = 'images/logo.png'
+
 # Configure the language example tabs.
 [[params.language_tabs]]
 key = "go"

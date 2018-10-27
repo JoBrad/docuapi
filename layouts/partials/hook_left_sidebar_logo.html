@@ -1,1 +1,1 @@
- <img src='{{ relURL "images/logo.png" }}' />
+{{ with .Site.Params.logo }}<a href="{{ $.Site.BaseURL }}"><img src='{{ $.Site.BaseURL }}{{ . }}' /></a>{{ end }}
